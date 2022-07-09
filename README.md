@@ -1,6 +1,6 @@
 # LearningGit
 
-First error: While push to the branch
+### First error: While push to the branch
 ERROR: "fatal: The current branch master has no upstream branch"
 SOLUTION: "git push --set-upstream origin Niraj"
 
@@ -10,7 +10,7 @@ SOLUTION : git pull -u origin main
 
 
 
-GIT MERGE TYPES---------------------
+### GIT MERGE TYPES---------------------
 git merge (fast forward) (Remove the branch history)
 git merge --no--ff (Brancing history remains) (Best way)
 
@@ -21,11 +21,11 @@ git rebase --squash
 git log --graph --all (For graph preview in terminal) (--online flag do what?)
 
 
-UNDOING uncommited files
+### UNDOING uncommited files
 git checkout --  OR git checkout -- . (FOr all files that has changes)
 
 
-BRANCH
+### BRANCH
 git branch (list all branch)
 git branch givename (Create new branch)
 git checkout givename (Switch branch)
@@ -34,12 +34,12 @@ git checkout -b branchname (This will create new branch and switch into new bran
 git branch -d branchname (To delete the branch)
 
 
-UNDO commited changes
+### UNDO commited changes
 git revert #commitID   (This will revert and commit the changes) (:q for quiting)
 git revent -n #commitID (It will not commit the changes you must explicitly commit the file afterward)
 git reset #commithash --hard (For revert back to the commit history) (Distructive approach)
 
-What is pull request?
+### What is pull request?
 
 
 git difftool #commit1 #commit2
