@@ -6,4 +6,4 @@ SOLUTION: "git push --set-upstream origin Niraj"
 
 
 ERROR : git pull remote branch cannot find remote ref
-SOLUTION : 
+SOLUTION : git pull -u origin main 
