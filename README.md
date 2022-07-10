@@ -1,8 +1,23 @@
-# LearningGit
+# Everything you need to know about Git
+### For Begineer Developers
+
+<img src="./readme_assets/Github-banner.png" width="100%">
+
+
+### Useful plugin (VSCode)
+ - Git Graph (Visualization)
+
+### Useful articles
+ - https://nvie.com/posts/a-successful-git-branching-model/
+
+### Version control for ML projects
+ - https://dvc.org/
+
 
 ### First error: While push to the branch
 ERROR: "fatal: The current branch master has no upstream branch"
-SOLUTION: "git push --set-upstream origin Niraj"
+SOLUTION:
+``` git push --set-upstream origin Niraj ```
 
 
 ERROR : git pull remote branch cannot find remote ref
@@ -18,6 +33,7 @@ git rebase
 git rebase --squash
 
 
+### Terminal visualzation
 git log --graph --all (For graph preview in terminal) (--online flag do what?)
 
 
