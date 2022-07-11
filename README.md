@@ -56,7 +56,11 @@ git rebase --squash
 - ```git reset #commithash --hard (For revert back to the commit history) (Distructive approach)```
 
 ### What is pull request?
+<<<<<<< HEAD
 Contributing on open source porjects 
+=======
+Contributing on open source porjects and finalizing it (Niraj) sdfsdfsd
+>>>>>>> Niraj
 
 ```git difftool #commit1 #commit2```
 
