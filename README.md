@@ -24,7 +24,6 @@ ERROR : git pull remote branch cannot find remote ref
 SOLUTION : ``` git pull -u origin main ```
 
 
-
 ### GIT MERGE TYPES---------------------
 - ``` git merge (fast forward) (Remove the branch history)```
 - ``` git merge --no--ff (Brancing history remains) (Best way) ```
